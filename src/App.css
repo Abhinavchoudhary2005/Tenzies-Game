@@ -1,0 +1,50 @@
+.bg {
+  background-color: black;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 65vw;
+  padding: 40px;
+}
+
+p {
+  text-align: center;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px 1px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .box-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+}
