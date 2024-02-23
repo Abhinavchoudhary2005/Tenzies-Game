@@ -1,5 +1,5 @@
 import "./App.css";
-import Platfrom from "./platform";
+import Platfrom from "./component/platform";
 
 function App() {
   return (
