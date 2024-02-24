@@ -40,4 +40,4 @@ To run the Tenzies game locally on your machine, follow these steps:
 
 ## Live Demo
 
-Check out the live demo of Tenzies [here](https://tenzies-abhinav-1.netlify.app/).
+Check out the live demo of Tenzies [here](https://tenzies-game-abhinav.vercel.app/).
